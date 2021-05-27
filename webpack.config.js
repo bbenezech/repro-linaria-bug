@@ -22,8 +22,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-     title: 'Output Management',
-     title: 'Development',
+      title: 'Linaria bug reproduction https://github.com/callstack/linaria/issues/762',
     }),
   ],
   devServer: {
